@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# Taskify - React Todo App with Drag and Drop Feature
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Taskify is a simple React application that allows you to manage your tasks in a todo list format with the added functionality of drag and drop. You can add new tasks, mark them as completed, and rearrange them using drag and drop.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Tasks**: Add new tasks to your todo list.
+- **Mark as Completed**: Mark tasks as completed by checking them off.
+- **Drag and Drop**: Rearrange tasks by dragging and dropping them to your preferred position.
+- **Responsive Design**: The app is designed to work seamlessly across various screen sizes.
 
-### `yarn start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: A JavaScript library for building user interfaces.
+- React Beautiful DND: A React library for implementing drag and drop functionality.
+- CSS: Styling for the app using CSS modules.
+- TypeScript: Typed JavaScript for safer and more maintainable code.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `yarn test`
+1. **Clone the Repository**: Clone this repository to your local machine using `git clone`.
+2. **Install Dependencies**: Navigate to the project directory and install dependencies using either `npm install` or `yarn install`.
+3. **Start the Development Server**: Start the development server using `npm start` or `yarn start`. This will launch the app in your default web browser at `http://localhost:3000/`.
+4. **Use the App**: Add tasks by typing in the input field and pressing Enter. Mark tasks as completed by checking them off. Rearrange tasks by dragging and dropping them to your preferred position.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Folder Structure
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **src**: Contains the source code for the React app.
+- **components**: Contains React components used in the app.
+- **models**: Contains TypeScript models used to define the structure of data.
